@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-bg {
+    background-color: #63ffef;
+  }
+  
+  .custom-container {
+    margin: 0 auto;
+    padding: 4rem;
+  }
+  
+  .custom-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4f11eb;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .custom-card {
+    max-width: 30rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+  }
+  
+  .custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .custom-label {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #4a5568;
+  }
+  
+  .custom-input,
+  .custom-select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    color: #4a5568;
+    background-color: #f7fafc;
+  }
+  
+  .custom-input::placeholder,
+  .custom-select option {
+    color: #a0aec0;
+  }
+  
+  .custom-button {
+    background-color: #ff6387;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #cc535d;
+  }
+  
+  #output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  
+  .converted-temp-label {
+    font-weight: bold;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+  }
+  
+  .converted-temp-value {
+    padding: 0.5rem 1rem;
+    background-color: #f7fafc;
+    color: #4a5568;
+    border-radius: 0.375rem;
+    font-weight: bold;
+  }
+  
