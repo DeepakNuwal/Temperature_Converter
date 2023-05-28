@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="custom-bg">
+  <div class="custom-container">
+    <h1 class="custom-heading">Temperature Converter</h1>
+    <div class="custom-card">
+      <form id="converter-form" class="custom-form">
+        <label class="custom-label" for="temp-input">Enter Temperature:</label>
+        <input class="custom-input" type="number" id="temp-input" name="temp-input" required>
+
+        <label class="custom-label" for="unit-selector">Select Input Unit:</label>
+        <select class="custom-select" id="unit-selector" name="unit-selector" required>
+          <option value="celsius">Celsius</option>
+          <option value="kelvin">Kelvin</option>
+          <option value="fahrenheit">Fahrenheit</option>
+        </select>
+
+        <label class="custom-label" for="output-selector">Select Output Unit:</label>
+        <select class="custom-select" id="output-selector" name="output-selector" required>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="celsius">Celsius</option>
+          <option value="kelvin">Kelvin</option>
+          
+        </select>
+
+        <button class="custom-button" type="submit">Convert</button>
+        <div id="output-container">
+          <label class="custom-label" for="converted-temp">Converted Temperature:</label>
+          <input class="custom-input" type="text" id="converted-temp" name="converted-temp" readonly>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
